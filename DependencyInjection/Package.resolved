@@ -1,0 +1,15 @@
+{
+  "originHash" : "1ada11c9b54575e8c7ab4852f5290638fcdd8a63c4edf01c21b3d425f8f8afdc",
+  "pins" : [
+    {
+      "identity" : "enki-fork-swift-syntax-xcframeworks",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/adeo/enki-fork-swift-syntax-xcframeworks",
+      "state" : {
+        "revision" : "bac9f8e3b5e3a1dfac3a9c31563484c29ce8485a",
+        "version" : "600.0.1"
+      }
+    }
+  ],
+  "version" : 3
+}

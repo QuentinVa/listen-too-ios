@@ -1,0 +1,34 @@
+{
+  "configurations" : [
+    {
+      "id" : "DCFD3682-FC2A-4F14-AB84-D9C68D3E5812",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:",
+          "identifier" : "Logger",
+          "name" : "Logger"
+        }
+      ]
+    },
+    "language" : "en",
+    "region" : "US"
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:",
+        "identifier" : "LoggerTests",
+        "name" : "LoggerTests"
+      }
+    }
+  ],
+  "version" : 1
+}

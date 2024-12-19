@@ -1,0 +1,10 @@
+xcassets:
+    inputs:
+        Resources/Assets/Images.xcassets
+    outputs:
+        output: Resources/Generated/ListenTooAssets.generated.swift
+        params:
+            enumName: ListenTooAssets
+            forceProvidesNamespaces: true
+            publicAccess: true
+        templatePath: Utils/SwiftGen/custom-xcassets.stencil

@@ -1,0 +1,1 @@
+../../../../scripts/swiftgen-assets.sh
