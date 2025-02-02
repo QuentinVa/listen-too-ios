@@ -1,0 +1,34 @@
+{
+  "configurations" : [
+    {
+      "id" : "CA6272A5-AEE3-42CB-97F2-E29A501B6EFF",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:",
+          "identifier" : "Utils",
+          "name" : "Utils"
+        }
+      ]
+    },
+    "language" : "en",
+    "region" : "US"
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:",
+        "identifier" : "UtilsTests",
+        "name" : "UtilsTests"
+      }
+    }
+  ],
+  "version" : 1
+}
