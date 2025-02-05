@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F3073D242D538DC0003718E2 /* ListenTooDesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = F3073D232D538DC0003718E2 /* ListenTooDesignSystem */; };
 		F38253CF2D4AA7C800579E1B /* Data in Frameworks */ = {isa = PBXBuildFile; productRef = F38253CE2D4AA7C800579E1B /* Data */; };
 		F38253D12D4AA7D400579E1B /* Domain in Frameworks */ = {isa = PBXBuildFile; productRef = F38253D02D4AA7D400579E1B /* Domain */; };
 		F3D2BFD32D14764400E247FC /* Logger in Frameworks */ = {isa = PBXBuildFile; productRef = F3D2BFD22D14764400E247FC /* Logger */; };
@@ -74,6 +75,7 @@
 				F3D2BFD72D14765800E247FC /* Resources in Frameworks */,
 				F38253CF2D4AA7C800579E1B /* Data in Frameworks */,
 				F3F5EA552D14790800350D3E /* DependencyInjection in Frameworks */,
+				F3073D242D538DC0003718E2 /* ListenTooDesignSystem in Frameworks */,
 				F3D2BFD32D14764400E247FC /* Logger in Frameworks */,
 				F3FA8BD62D143017007A734D /* Utils in Frameworks */,
 			);
@@ -150,6 +152,7 @@
 				F3F5EA542D14790800350D3E /* DependencyInjection */,
 				F38253CE2D4AA7C800579E1B /* Data */,
 				F38253D02D4AA7D400579E1B /* Domain */,
+				F3073D232D538DC0003718E2 /* ListenTooDesignSystem */,
 			);
 			productName = "listen-too-ios";
 			productReference = F3D158EC2D142F0C00CA95D7 /* ListenToo.app */;
@@ -236,6 +239,7 @@
 			packageReferences = (
 				F3FA8BD82D143274007A734D /* XCRemoteSwiftPackageReference "SwiftGenPlugin" */,
 				F3D4D6B72D4AA76E00CCFFA0 /* XCLocalSwiftPackageReference "Data" */,
+				F3073D222D538DC0003718E2 /* XCLocalSwiftPackageReference "../listen-too-design-system" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = F368A0202D1422E300FCD860;
@@ -596,6 +600,10 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
+		F3073D222D538DC0003718E2 /* XCLocalSwiftPackageReference "../listen-too-design-system" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../listen-too-design-system";
+		};
 		F3D4D6B72D4AA76E00CCFFA0 /* XCLocalSwiftPackageReference "Data" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = Data;
@@ -614,6 +622,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		F3073D232D538DC0003718E2 /* ListenTooDesignSystem */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ListenTooDesignSystem;
+		};
 		F38253CE2D4AA7C800579E1B /* Data */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Data;

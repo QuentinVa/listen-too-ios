@@ -6,18 +6,39 @@
 //
 
 import SwiftUI
+import ListenTooDesignSystem
 
 struct ComponentsView: View {
+
+    // MARK: Properties
+
+    @State var binding: Bool = false
 
     // MARK: View
 
    var body: some View {
        NavigationView {
            VStack {
-               PrimaryButton(title: "Primary Button") {}
-               SecondaryButton(title: "Secondary Button") {}
+               ListenTooText(
+                    "Liste de buttons",
+                    font: .bodyLargeHighlight,
+                    foregroundColor: .status(.danger)
+               )
+
+               ListenTooButton(
+                    text: "ListenTooButton",
+                    theme: .primary,
+                    width: .fill,
+                    isLoading: $binding
+               ) {}
+
+               ListenTooButton(
+                    text: "Secondary",
+                    theme: .secondary,
+                    width: .fill
+               ) {}
            }
-           .padding(LTDesignSystem.MagicUnit.mu016.rawValue)
+           .listenTooPadding(.mu100)
            .navigationTitle("ComponentsView")
        }
    }
