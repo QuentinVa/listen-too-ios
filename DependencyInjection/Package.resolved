@@ -1,12 +1,12 @@
 {
-  "originHash" : "1ada11c9b54575e8c7ab4852f5290638fcdd8a63c4edf01c21b3d425f8f8afdc",
+  "originHash" : "b271baa2d0dbf7114d97452c9183672b1e9419c9fc83516aeb17c3fe4cd9c2da",
   "pins" : [
     {
-      "identity" : "enki-fork-swift-syntax-xcframeworks",
+      "identity" : "swift-syntax",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/adeo/enki-fork-swift-syntax-xcframeworks",
+      "location" : "https://github.com/apple/swift-syntax",
       "state" : {
-        "revision" : "bac9f8e3b5e3a1dfac3a9c31563484c29ce8485a",
+        "revision" : "0687f71944021d616d34d922343dcef086855920",
         "version" : "600.0.1"
       }
     }

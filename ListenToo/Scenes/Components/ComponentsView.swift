@@ -5,8 +5,8 @@
 //  Created by Quentin Varlet on 02/03/2023.
 //
 
-import SwiftUI
 import ListenTooDesignSystem
+import SwiftUI
 
 struct ComponentsView: View {
 
@@ -19,6 +19,9 @@ struct ComponentsView: View {
    var body: some View {
        NavigationView {
            VStack {
+
+               Text("Test")
+
                ListenTooText(
                     "Liste de buttons",
                     font: .bodyLargeHighlight,
@@ -50,6 +53,7 @@ struct ComponentsView: View {
 
 struct ComponentsView_Previews: PreviewProvider {
     static var previews: some View {
+
         ComponentsView()
     }
 }
